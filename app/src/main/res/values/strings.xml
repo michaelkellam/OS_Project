@@ -7,6 +7,7 @@
     <string name="third_fragment_label">Third Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Return to Login</string>
+    <string name="auto_login">Auto login</string>
 
     <string name="hello_first_fragment">Log Into MySQL server</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>

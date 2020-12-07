@@ -155,7 +155,6 @@ public class BlankFragment extends Fragment {
         TableRow lastRow = new TableRow(ma);
         int lastOff = numRows - 2;
         for (int i = 0; i < numCols; i++) {
-            Log.d(null, "LO gonna be " + data.size());
             TextView tv = new TextView(ma);
             tv.setPadding(15,15,15,15);
             if (lastOff < data.size()) {

@@ -77,7 +77,7 @@ public class TableFragment extends Fragment {
         ma.tf = this;
 
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
+                @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 ma.currentTable = lv.getItemAtPosition(position).toString();
 

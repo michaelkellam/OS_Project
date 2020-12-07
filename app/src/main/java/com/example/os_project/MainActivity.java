@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
     public String ip;
     public String db;
     public String user;
-    public String pass = "b562c8a3";
+    public String pass;
 
     public Connection con;
     public SQLOps sql;
@@ -249,11 +249,6 @@ public class MainActivity extends AppCompatActivity {
         CSVWriter writer = null;
         try {
             writer = new CSVWriter(new FileWriter(csv));
-
-
-            Log.d(null, csv);
-
-
             writer.writeAll(data); // data is adding to csv
 
             writer.close();
